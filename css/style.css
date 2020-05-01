@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400&display=swap');
+
+body{
+    font-family: 'Noto Sans TC', sans-serif;
+    font-weight: 300;
+    letter-spacing: 3px;
+    overflow: hidden;
+}
+
+nav{
+    width: 230px;
+    height: 100vh;
+    background-color: rgb(34, 34, 34);
+}
+
+section{
+    width: calc(100% - 230px);
+    height: 100vh;
+    border: 1px #000 solid;
+    background-color: #fff;
+    z-index: 1;
+}
+
+#nav-close{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.title{
+    height: 80px;
+    position: relative;
+    box-shadow:0px 0px 10px 5px #000;
+}
+
+ul li{
+    list-style-type:none;
+    color: #fff;
+    font-size: 16px;
+}
+
+.choice{
+    height: calc(100% - 80px - 95px);
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.choice::-webkit-scrollbar {
+    width: 5px;
+}
+
+.choice::-webkit-scrollbar-thumb {
+    background: #000; 
+    border-radius: 10px;
+}
+
+.choice_about{
+    height: 95px;
+    box-shadow:0px 4px 10px 5px #000;
+}
+
+.subtitle{
+    background-color: #555;
+    font-size: 13px;
+    border-top: 1px solid #aaa;
+    color: #ccc;
+    padding: 3px;
+    text-shadow: 0 0 1px #000, 0 -1px 1px #000;
+    font-weight: 400;
+}
+
+.img_group li{
+    width: 230px;
+    height: 120px;
+    border-bottom: 3px rgb(34, 34, 34) solid;
+}
+
+.img_group li:nth-child(1){
+    background-image: url(../image/nav-img-1.jpg);
+    background-size: cover;
+}
+
+.img_group li:nth-child(2){
+    background-image: url(../image/nav-img-2.jpg);
+    background-size: cover;
+}
+
+.img_group li:nth-child(3){
+    background-image: url(../image/nav-img-3.jpg);
+    background-size: cover;
+}
+
+.img_group li:nth-child(4){
+    background-image: url(../image/nav-img-4.jpg);
+    background-size: cover;
+}
+
+.img_group li:nth-child(5){
+    background-image: url(../image/nav-img-5.jpg);
+    background-size: cover;
+}
+
+.img_group li:nth-child(6){
+    background-image: url(../image/nav-img-6.jpg);
+    background-size: cover;
+}
+
+.small_new{
+    background-color: #900;
+    box-shadow: 0 0 10px #000;
+    font-size: 10px;
+    color: white;
+    font-style: italic;
+    letter-spacing: 1px;
+    width: 35px;
+    text-align: center;
+    text-shadow: 0 0 10px #000, 1px 1px 1px #000;
+    float: left;
+}
